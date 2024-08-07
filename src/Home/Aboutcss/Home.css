@@ -1,0 +1,90 @@
+.carousel-container {
+  position: relative;
+  width: 97.5%;
+
+  margin-top: 120px;
+  background-color: black;
+  margin: 0 auto;
+  top: 115px;
+  height: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.carousel-container.light {
+  background-color: #ffffff; /* Light background for light mode */
+  color: #1a202c; /* Dark text color for light mode */
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+.text-content {
+  width: 30%;
+  margin-left: 150px;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.slide-content2 {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-button.left {
+  left: 10px;
+}
+
+.carousel-button.right {
+  right: 10px;
+}
+.carousel-container {
+  position: relative;
+}
+
+.carousel-slide {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.settings-panel {
+  /* Add styles for settings panel if needed */
+}
+
+/* Optional: Blur effect for dark mode */
+/* .blurred {
+  filter: blur(4px);
+} */
+
+/* Media content specific styling */
+.media-content img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+.img-content {
+  width: 600px;
+  margin-bottom: 80px;
+  margin-right: 0px;
+}
